@@ -1,0 +1,1 @@
+# sezame extension for Magento
