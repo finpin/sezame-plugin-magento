@@ -50,7 +50,7 @@ class Finpin_Sezame_AuthController extends Mage_Core_Controller_Front_Action
                 break;
 
             case 'notfound':
-                Mage::getSingleton('core/session')->addError($helper->__('Invalid login.'));
+                Mage::getSingleton('core/session')->addError($helper->__('You have to enable sezame in the customer area first.'));
                 break;
         }
 
@@ -125,7 +125,7 @@ class Finpin_Sezame_AuthController extends Mage_Core_Controller_Front_Action
                 break;
 
             case 'notfound':
-                Mage::getSingleton('core/session')->addError($helper->__('Invalid login.'));
+                Mage::getSingleton('core/session')->addError($helper->__('You have to enable sezame in the customer area.'));
                 break;
         }
 

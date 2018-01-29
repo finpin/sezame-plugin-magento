@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Finpin_Sezame>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
         </Finpin_Sezame>
     </modules>
     <global>

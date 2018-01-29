@@ -40,6 +40,15 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </enabled>
+                        <authmsg translate="label">
+                            <label>Authentication message</label>
+                            <comment>Message displayed on users mobile device</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </authmsg>
                         <timeout translate="label">
                             <label>Timeout</label>
                             <comment>Authentication timeout in seconds</comment>
@@ -59,6 +68,15 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </fraud>
+                        <fraudmsg translate="label">
+                            <label>Fraud message</label>
+                            <comment>Message displayed on users mobile device</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fraudmsg>
                         <email translate="label">
                             <label>Recovery E-Mail</label>
                             <comment>Recovery E-Mail entered on the sezame app</comment>

@@ -32,7 +32,8 @@ class Finpin_Sezame_Model_Login extends Mage_Core_Model_Observer
 
             $customerData = Mage::getModel('customer/customer')->load($customer->getId());
 
-
+            /** @var Finpin_Sezame_Model_Auth $model */
+            $model = Mage::getModel('sezame/auth');
             if ($model->getConfigParam('settings/fraud'))
             {
                 /** @var Finpin_Sezame_Model_Link $linkModel */
